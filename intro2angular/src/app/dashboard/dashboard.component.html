@@ -1,0 +1,13 @@
+<div id="quote">
+  <p>{{ quote + " by " + email }}</p>
+  <a routerLink="/logout" class="button">Logout</a>
+  <div id="controls">
+    <input
+      type="button"
+      class="button"
+      value="Update Quote"
+      (click)="updateQuote($event)"
+    />
+    <input type="text" value="{{ quote }}" id="myQuote" />
+  </div>
+</div>

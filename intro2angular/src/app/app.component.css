@@ -1,0 +1,10 @@
+h1 {
+  color: blue !important;
+}
+
+.odd {
+  background-color: blue;
+}
+.even {
+  background-color: yellow;
+}

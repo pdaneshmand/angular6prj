@@ -1,0 +1,43 @@
+<!-- <h1>App Component</h1>
+This is app component and the Hello component<br/>
+<app-hello></app-hello> -->
+
+<!-- <p>{{formTitle}}</p>
+<p>{{myDisabledValue}}</p>
+<input type="text" value="{{myVariable}}" [ngClass]="{'bg-1' : myVariable , 'bg-2': !myVariable }" />
+<input type="button" value="changeTitleForm" (click)="changeTitle()"> -->
+<!-- <input type="text" [(ngModel)]="text">
+<h3>{{text}}</h3> -->
+
+<!-- <table>
+  <tr>
+    <td>S No.</td>
+    <td>UserID</td>
+    <td>Title</td>
+    <td>Body</td>
+  </tr>
+  <tr
+    *ngFor="
+      let record of records;
+      let myIndex = index;
+      let evenRecords = even;
+      let oddRecords = odd;
+      let firstRecord = first;
+      let lastRecord = last
+    "
+    [ngClass]="{
+      odd: oddRecords,
+      even: evenRecords,
+      first: firstRecord,
+      last: lastRecord
+    }"
+  >
+    <td>{{ myIndex + 1 }}</td>
+    <td>{{ record.userId }}</td>
+    <td>{{ record.title }}</td>
+    <td>{{ record.body }}</td>
+  </tr>
+</table> -->
+<app-header></app-header>
+<router-outlet></router-outlet>
+
